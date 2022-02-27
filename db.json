@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "name": "max",
+      "lastName": "masim",
+      "tel": [
+        "",
+        null,
+        null,
+        null
+      ],
+      "id": 1
+    },
+    {
+      "name": "max",
+      "lastName": "masim",
+      "tel": [
+        "+380 634 543 67 68",
+        "+242 443 556 35 67",
+        null,
+        null
+      ],
+      "id": 2
+    }
+  ]
+}

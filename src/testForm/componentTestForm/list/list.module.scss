@@ -1,0 +1,46 @@
+
+.title{
+    margin: 50px ;
+}
+
+
+.wrapper{
+    padding: 3vw;
+    margin: 20px 100px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.list{
+    padding: 20px 100px 30px 100px;
+    display: flex;
+    width: 100%;
+h3{
+    flex: 0 0 20%;
+}
+ .div{
+flex: 0 0  45%;
+ }
+ .icon{
+     font-size: 20px;
+     cursor: pointer;
+ }
+}
+@media screen and (max-width: 900px) {
+    .wrapper{
+
+    }
+  .list {
+   flex-direction: column;
+   padding: 0;
+   h3{
+       flex: 1 1 auto;
+   }
+  
+  }
+}

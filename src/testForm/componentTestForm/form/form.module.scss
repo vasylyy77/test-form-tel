@@ -1,0 +1,86 @@
+
+.wrapper{
+    padding: 2vw;
+    margin: 20px  auto;
+    width: 60vw;
+    border: 1px solid #888;
+    border-radius:20px ;
+    
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+}
+.span{
+    color:red;
+}
+    .form{
+ display: flex;
+ flex-direction: column;
+    
+  input{
+      
+      width: 55vw;
+      padding: 10px;
+      background-color: rgb(240, 171, 171);
+      margin-bottom: 20px;
+       outline: none;
+       border: none;
+       border-radius: 20px;
+       -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+       -ms-border-radius: 20px;
+       -o-border-radius: 20px;
+       &:focus{
+           background-color: #e93232;
+       }
+}
+.boxBtn{
+    display: flex;
+    justify-content: space-around;
+    padding:20px ;
+    width: 100%;
+
+}
+   
+   .btn{
+       text-align: center;
+       width:45%;
+       color: azure;
+       font-size: 20px;
+       background-color: rgb(223, 163, 163);
+   
+      
+       padding: 10px;
+       border-radius: 20px;
+       -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+       -ms-border-radius: 20px;
+       -o-border-radius: 20px;
+       &:hover{
+           background-color: rgb(235, 74, 74);
+       }
+}
+}
+
+
+
+@media screen and (max-width: 900px) {
+    
+    
+    .form{
+        width: 70vw;
+
+    }
+   
+ .boxBtn{
+     display: flex;
+     flex-direction: column;
+    .btn{ 
+        margin: 20px;
+     flex: 0 0 100%;
+     }
+  
+ }
+   
+}
